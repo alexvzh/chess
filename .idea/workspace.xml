@@ -5,38 +5,132 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ced65119-9796-4c18-8fe3-f6b85be746a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/board/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/board/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/move/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/move/MoveManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/move/MoveType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/piece/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/piece/PieceColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/piece/PieceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/piece/PieceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/piece/pieces/Bishop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/piece/pieces/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/piece/pieces/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/piece/pieces/Pawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/piece/pieces/Queen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/piece/pieces/Rook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/scene/Scene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/scene/SceneID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/scene/SceneManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/scene/scenes/GameScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/scene/scenes/MenuScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/spritesheet/ImageLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/spritesheet/SpriteSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/ui/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/ui/ElementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/ui/RenderPriority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/ui/behaviour/Clickable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/ui/behaviour/Drawable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/ui/behaviour/HasBoundingBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/ui/behaviour/Hoverable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/alex/ui/behaviour/Updatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/caliente.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/capture.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/castle.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/move-check.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/move-self.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/promote.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sprite_sheet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/alex/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alexvzh&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alexvzh/chess.git&quot;,
+    &quot;accountId&quot;: &quot;9c6d6139-9893-41ca-998f-573e59272483&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2sg2tCM3Ce84nzIbiWNMVMO0J6o" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/zlex/IdeaProjects/Chess/src/main/java/me/alex/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build Chess.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Chess [:me.alex.main.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zlex/IdeaProjects/Chess/src/main/java/me/alex/ui/behaviour&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/zlex/IdeaProjects/Chess/src/main/java/me/alex/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/me/alex/ui/behaviour" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-23" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="me.alex.main.Main" />
+      <module name="Chess.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -53,22 +147,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738863113404</updated>
-      <workItem from="1738863114435" duration="2000" />
+      <workItem from="1738863114435" duration="1654000" />
+      <workItem from="1738864816939" duration="10619000" />
+      <workItem from="1738927254871" duration="31377000" />
+      <workItem from="1739041274078" duration="6376000" />
+      <workItem from="1739057309338" duration="40000" />
+      <workItem from="1739057351990" duration="5196000" />
+      <workItem from="1739131157896" duration="425000" />
+      <workItem from="1739146577808" duration="1078000" />
+      <workItem from="1739211067816" duration="54000" />
+      <workItem from="1739211150056" duration="1233000" />
+      <workItem from="1739228462033" duration="7421000" />
+      <workItem from="1739297520022" duration="3546000" />
+      <workItem from="1739306874019" duration="19365000" />
+      <workItem from="1739650654038" duration="8054000" />
+      <workItem from="1739810911383" duration="4805000" />
+      <workItem from="1739883048466" duration="2287000" />
+      <workItem from="1739885345366" duration="20514000" />
+      <workItem from="1739994290594" duration="13920000" />
+      <workItem from="1740047312056" duration="10985000" />
+      <workItem from="1740095335322" duration="3105000" />
+      <workItem from="1740154929092" duration="23675000" />
+      <workItem from="1740511232843" duration="248000" />
+      <workItem from="1740564231953" duration="11951000" />
+      <workItem from="1740782682889" duration="14643000" />
+      <workItem from="1741028307801" duration="1352000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/me/alex/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
