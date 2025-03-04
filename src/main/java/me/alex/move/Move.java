@@ -151,7 +151,6 @@ public class Move {
     }
 
     public void playSound(final String url) {
-        System.out.println("a");
         new Thread(new Runnable() {
             public void run() {
                 try {
